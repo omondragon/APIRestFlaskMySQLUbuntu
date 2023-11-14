@@ -21,6 +21,7 @@ sudo systemctl restart mysql.service
 
 # Instal Python Flask and Flask-MySQLdb
 sudo apt install python3-dev default-libmysqlclient-dev build-essential pkg-config mysql-client python3-pip -y
+pip3 install Flask==2.3.3
 pip3 install Flask-MySQLdb
 
 #Run application
